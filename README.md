@@ -1,9 +1,18 @@
+> [!WARNING]
+> This mod is currently in heavy development and will contain bugs. Please report any issues you may find here: https://github.com/ZxsmDev/Overforged/issues.
+
 # Overforged
+![overforged-logo.png](src/main/resources/assets/overforged/overforged-logo.png)
 
-## Setup
+> Overforged is a Minecraft mod aiming to completely overhauls the progression and gearing system in vanilla Minecraft. 
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+| Launchers  |  Supported Versions  |
+|------------|:--------------------:|
+| `Fabric`   |        1.21+         |
+| `Neoforge` |         N/A          |
 
-## License
+<details>
+<summary>More Info</summary>
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+hello, this is where more info goes
+</details>
