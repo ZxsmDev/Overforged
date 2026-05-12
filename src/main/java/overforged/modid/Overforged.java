@@ -4,6 +4,9 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import overforged.modid.block.ModBlocks;
+import overforged.modid.item.ModItemGroups;
+import overforged.modid.item.ModItems;
 
 public class Overforged implements ModInitializer {
 	public static final String MOD_ID = "overforged";
@@ -16,5 +19,9 @@ public class Overforged implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

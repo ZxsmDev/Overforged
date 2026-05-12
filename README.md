@@ -14,5 +14,12 @@
 <details>
 <summary>More Info</summary>
 
-hello, this is where more info goes
+*this is where more info goes*
+</details>
+
+<details>
+<summary>To Do List</summary>
+
+- [ ] Determine a streamlined progressional 'forging' system that can grow in complexity, cost, and difficulty.
+- [ ] Retexture steel ingots, raw steel, and steel blocks to incorporate more blue tones, currently very black visually
 </details>

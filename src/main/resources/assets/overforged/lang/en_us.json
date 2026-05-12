@@ -1,0 +1,9 @@
+{
+  "item.overforged.steel_ingot": "Steel Ingot",
+  "item.overforged.raw_steel": "Raw Steel",
+
+  "block.overforged.block_of_steel": "Block of Steel",
+
+  "itemgroup.overforged.overforged_items": "Overforged Items",
+  "itemgroup.overforged.overforged_blocks": "Overforged Blocks"
+}
