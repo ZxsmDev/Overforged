@@ -3,6 +3,9 @@
   "item.overforged.raw_steel": "Raw Steel",
 
   "block.overforged.block_of_steel": "Block of Steel",
+  "block.overforged.block_of_raw_steel": "Block of Raw Steel",
+  "block.overforged.steel_ore": "Steel Ore",
+  "block.overforged.deepslate_steel_ore": "Deepslate Steel Ore",
 
   "itemgroup.overforged.overforged_items": "Overforged Items",
   "itemgroup.overforged.overforged_blocks": "Overforged Blocks"

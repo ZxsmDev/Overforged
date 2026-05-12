@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "overforged:block_of_steel",
+    "overforged:block_of_raw_steel",
+    "overforged:steel_ore",
+    "overforged:deepslate_steel_ore"
+  ]
+}

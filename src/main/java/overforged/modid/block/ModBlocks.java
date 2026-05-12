@@ -2,8 +2,10 @@ package overforged.modid.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import overforged.modid.Overforged;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -14,7 +16,32 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block[] blocks = new Block[]{
-            registerBlock("block_of_steel", new Block(AbstractBlock.Settings.create().strength(2f).requiresTool().sounds(BlockSoundGroup.NETHERITE)))
+            registerBlock("block_of_steel",
+                    new Block(AbstractBlock.Settings
+                            .create()
+                            .strength(4f)
+                            .requiresTool()
+                            .sounds(BlockSoundGroup.NETHERITE))),
+            registerBlock("block_of_raw_steel",
+                    new Block(AbstractBlock.Settings
+                            .create()
+                            .strength(3f)
+                            .requiresTool()
+                            .sounds(BlockSoundGroup.DEEPSLATE_TILES))),
+            registerBlock("steel_ore",
+                    new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                            AbstractBlock.Settings
+                            .create()
+                            .strength(3f)
+                            .requiresTool()
+                            .sounds(BlockSoundGroup.STONE))),
+            registerBlock("deepslate_steel_ore",
+                    new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
+                            AbstractBlock.Settings
+                            .create()
+                            .strength(4f)
+                            .requiresTool()
+                            .sounds(BlockSoundGroup.DEEPSLATE))),
     };
 
     private static Block registerBlock(String name, Block block) {

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "steel_ingot",
+  "ingredient": {
+    "item": "overforged:raw_steel"
+  },
+  "result": {
+    "id": "overforged:steel_ingot"
+  }
+}
